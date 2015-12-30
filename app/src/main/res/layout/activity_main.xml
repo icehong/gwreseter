@@ -1,0 +1,91 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context=".MainActivity">
+    <TableRow android:layout_width="fill_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/modem_type"
+            android:id="@+id/lbl_type" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/modem_ip"
+            android:id="@+id/lbl_ip" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip"
+            android:inputType="text" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/user_name"
+            android:id="@+id/lbl_name" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/password"
+            android:id="@+id/lbl_pass" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:password="true" />
+
+    </TableRow>
+    <TableRow >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/execute"
+            android:id="@+id/raw_tcp"
+            android:layout_span="2" />
+    </TableRow >
+    <TableRow >
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/execute_on"
+            android:id="@+id/switch1"
+            android:checked="false"
+            android:layout_span="2" />
+
+    </TableRow>
+    <TextView
+        android:id="@+id/about_desc"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:autoLink="email|web"
+        android:singleLine="false"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp" />
+</TableLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">网关助手</string>
+    <string name="action_settings">设置</string>
+
+    <string-array name="modem_list">
+        <item>华为 HG526</item>
+    </string-array>
+    <string name="modem_type">网关类型:</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="modem_ip">网关地址:</string>
+    <string name="user_name">帐号:</string>
+    <string name="password">密码:</string>
+    <string name="execute">复位</string>
+    <string name="execute_on">定时执行</string>
+    <string name="about_desc"><![CDATA[
+    这是一个控制你家Modem,家庭网关的应用, 可以用于家长控制等场景<br/><br/>
+    这个程序完全是给我家女儿设计的, 当我发现她看了很长时间IPTV, 不能自拨时, 通过这个复位功能, 直接断掉网络. 她就乖乖的出去玩了 :)<br/><br/>
+    如果需要支持更多功能/Modem,  可以发邮件给  icehong@gmail.com  看看能不能帮到你.<br/><br/>
+    代码共享在 https://github.com/icehong/gwreseter
+    ]]>
+    </string>
+</resources>
