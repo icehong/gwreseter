@@ -10,7 +10,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/modem_type"
             android:id="@+id/lbl_type" />
         <Spinner
@@ -23,7 +22,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/modem_ip"
             android:id="@+id/lbl_ip" />
 
@@ -38,7 +36,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/user_name"
             android:id="@+id/lbl_name" />
         <EditText
@@ -51,7 +48,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/password"
             android:id="@+id/lbl_pass" />
 
@@ -59,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/password"
-            android:password="true" />
+            android:inputType="textPassword" />
 
     </TableRow>
     <TableRow >
